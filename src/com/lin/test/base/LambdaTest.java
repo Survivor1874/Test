@@ -8,6 +8,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
+ * java 8 lambda 试用
+ *
  * @author linjun.li@quvideo.com
  * @date 2018-10-10 14:58
  **/

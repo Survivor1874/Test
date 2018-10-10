@@ -16,8 +16,7 @@ public class StringTest {
     @Test
     public void testSplit() {
         String aa = "jdjhdjfjfnnfjgnfjsjjsncnsnkdkdjnxbcncnnxjsb,bdhbdbxbnxnxnxjcbbc,hxjhxbcn,";
-        List<String> list = new ArrayList<>();
-        list.addAll(Arrays.asList(aa.split(",")));
+        List<String> list = Arrays.asList(aa.split(","));
         System.out.println(JSON.toJSONString(list));
     }
 }

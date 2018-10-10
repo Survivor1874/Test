@@ -1,7 +1,6 @@
 package com.lin.test.structure;
 
 import com.alibaba.fastjson.JSON;
-import org.junit.Test;
 
 /**
  * 基于数组实现的顺序栈
