@@ -3,9 +3,7 @@ package com.lin.test.base;
 import com.alibaba.fastjson.JSON;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * @author linjun.li@quvideo.com
@@ -13,10 +11,10 @@ import java.util.List;
  **/
 public class StringTest {
 
+
     @Test
-    public void testSplit() {
-        String aa = "jdjhdjfjfnnfjgnfjsjjsncnsnkdkdjnxbcncnnxjsb,bdhbdbxbnxnxnxjcbbc,hxjhxbcn,";
-        List<String> list = Arrays.asList(aa.split(","));
-        System.out.println(JSON.toJSONString(list));
+    public void testSplit2() {
+        String testStr = ",,,giid,ddf,,,f,,";
+        System.out.println(JSON.toJSONString(Arrays.asList(testStr.split(","))));
     }
 }
